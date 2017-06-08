@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:scrollbars="none"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="280dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:background="#EEEEEE"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Subway"
+                android:textAlignment="center"
+                android:textColor="#707070"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="#707070"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="center|right"
+                android:text="Cancel"
+                android:id="@+id/cancel"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="36dip"-->
+        <!--android:background="#EEEEEE"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="10dip" >-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Resources 1: "-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="The hammer"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="1dip"-->
+        <!--android:background="#C0C0C0" />-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="36dip"-->
+        <!--android:background="#EEEEEE"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="10dip" >-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Resources 2: "-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Wool"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="1dip"-->
+        <!--android:background="#C0C0C0" />-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="36dip"-->
+        <!--android:background="#EEEEEE"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="10dip" >-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Resources 3: "-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="The Ball"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="16dip" />-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgoundTExtView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/outletCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Outlet"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/marker"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+    </LinearLayout>
+
+</ScrollView>
